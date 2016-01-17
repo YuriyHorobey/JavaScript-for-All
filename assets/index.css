@@ -1,0 +1,22 @@
+/*---------------------Target labels */
+/*colors*/
+/*geometry*/
+body {
+  font-family: Helvetica, Arial, serif; }
+
+.article-labels {
+  color: #000; }
+  .article-labels__label {
+    font-style: normal;
+    width: 20px;
+    margin-right: 10px; }
+    .article-labels__label--info {
+      color: #ff8c00; }
+    .article-labels__label--jun {
+      color: #a52a2a; }
+    .article-labels__label--mid {
+      color: #5f9ea0; }
+    .article-labels__label--sen {
+      color: #43a025; }
+    .article-labels__label--guru {
+      color: #c86ae3; }

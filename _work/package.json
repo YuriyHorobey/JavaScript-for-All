@@ -1,0 +1,33 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "An article about JavaScript",
+  "main": "none",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuriyHorobey/JavaScript-for-All.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "article",
+    "tutorials",
+    "juniour",
+    "middle",
+    "senior",
+    "guru"
+  ],
+  "author": "Yuriy Horobey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuriyHorobey/JavaScript-for-All/issues"
+  },
+  "homepage": "https://github.com/YuriyHorobey/JavaScript-for-All#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.1"
+  }
+}

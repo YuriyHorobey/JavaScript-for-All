@@ -1,0 +1,44 @@
+/*---------------------Target labels */
+/*colors*/
+$clrLblDefault: #000;
+$clrLblInfo: #ff8c00;
+$clrLblJun: #a52a2a;
+$clrLblMid: #5f9ea0;
+$clrLblSen: #43a025;
+$clrLblGuru: #c86ae3;
+/*geometry*/
+$wLblLabel: 20px;
+$mLblRight: 10px;
+
+body {
+  font-family: Helvetica, Arial, serif;
+}
+
+.article-labels {
+  color: $clrLblDefault;
+  &__label {
+    font-style: normal;
+    width: $wLblLabel;
+    margin-right: $mLblRight;
+    &--info {
+      color: $clrLblInfo;
+    }
+
+    &--jun {
+      color: $clrLblJun;
+    }
+
+    &--mid {
+      color: $clrLblMid;
+    }
+
+    &--sen {
+      color: $clrLblSen;
+    }
+
+    &--guru {
+      color: $clrLblGuru;
+
+    }
+  }
+}
